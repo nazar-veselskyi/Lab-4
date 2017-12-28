@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Timers;
 
-namespace NRVI_LABS_4_6 {
+namespace NazarVeselskyi.Collections {
     public class Mobile {
         private SMSProvider _smsProvider;
         public Storage Storage { get; set; }

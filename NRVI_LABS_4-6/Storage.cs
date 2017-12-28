@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NRVI_LABS_4_6 {
+namespace NazarVeselskyi.Collections {
     public class Storage {
         public delegate void SMSAddedDelegate(Message message);
         public event SMSAddedDelegate SMSAdded;

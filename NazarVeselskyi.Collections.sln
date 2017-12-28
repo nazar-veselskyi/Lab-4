@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRVI_LAB_4_Collections", "NRVI_LABS_4-6\NRVI_LAB_4_Collections.csproj", "{910276D5-21B5-4F42-8BD4-76CAE429FEE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NazarVeselskyi.Collections", "NRVI_LABS_4-6\NazarVeselskyi.Collections.csproj", "{910276D5-21B5-4F42-8BD4-76CAE429FEE3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{8FB50E22-5101-42E0-BAC4-26C38BDE245F}"
 EndProject
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {358CC197-ED23-4571-ADF4-8E9F77510164}
 	EndGlobalSection
 EndGlobal

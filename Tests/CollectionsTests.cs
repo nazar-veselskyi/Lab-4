@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NRVI_LABS_4_6;
+using NazarVeselskyi.Collections;
 
 namespace Tests {
     [TestClass]
-    public class Lab4Tests {
+    public class CollectionsTests {
         private readonly List<string> _subscribers = new List<string> { "Subscriber1", "Subscriber2", "Subscriber3" };
         private readonly List<string> _searchWords = new List<string> { "I am", "busy", "I" };
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace NRVI_LABS_4_6 {
+namespace NazarVeselskyi.Collections {
     public class Message {
         public string User { get; set; }
         public string Text { get; set; }

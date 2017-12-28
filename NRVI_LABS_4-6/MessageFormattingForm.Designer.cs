@@ -1,4 +1,4 @@
-﻿namespace NRVI_LABS_4_6
+﻿namespace NazarVeselskyi.Collections
 {
     partial class MessageFormattingForm
     {

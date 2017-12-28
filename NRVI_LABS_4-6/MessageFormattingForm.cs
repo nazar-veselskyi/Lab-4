@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace NRVI_LABS_4_6 {
+namespace NazarVeselskyi.Collections {
     public enum FormattingType {
         And,
         Or
@@ -80,17 +80,19 @@ namespace NRVI_LABS_4_6 {
 
         public IEnumerable<Message> GetMessages(IEnumerable<Message> allMessages, string subscriber, string text, DateTime fromDate, DateTime toDate, FormattingType fType) {
             if (fType == FormattingType.And) {
-                return allMessages.Where(m =>
-                    m.User == subscriber
-                    && m.Text.Contains(text)
-                    && m.ReceivingTime.CompareTo(fromDate) >= 0 
-                    && m.ReceivingTime.CompareTo(toDate) <= 0);
+                return from mess in allMessages
+                       where mess.User == subscriber
+                       && mess.Text.Contains(text)
+                       && mess.ReceivingTime.CompareTo(fromDate) >= 0
+                       && mess.ReceivingTime.CompareTo(toDate) <= 0
+                       select mess;
             }
 
-            return allMessages.Where(m => 
-            m.User == subscriber
-            || m.Text.Contains(text)
-            || (m.ReceivingTime.CompareTo(fromDate) >= 0 && m.ReceivingTime.CompareTo(toDate) <= 0));
+            return from mess in allMessages
+                where mess.User == subscriber
+                      || mess.Text.Contains(text)
+                      || (mess.ReceivingTime.CompareTo(fromDate) >= 0 && mess.ReceivingTime.CompareTo(toDate) <= 0)
+                select mess;
         }
     }
 }

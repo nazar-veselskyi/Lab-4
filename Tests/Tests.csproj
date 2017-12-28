@@ -51,13 +51,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Lab4Tests.cs" />
+    <Compile Include="CollectionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NRVI_LABS_4-6\NRVI_LAB_4_Collections.csproj">
+    <ProjectReference Include="..\NRVI_LABS_4-6\NazarVeselskyi.Collections.csproj">
       <Project>{910276d5-21b5-4f42-8bd4-76cae429fee3}</Project>
-      <Name>NRVI_LAB_4_Collections</Name>
+      <Name>NazarVeselskyi.Collections</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

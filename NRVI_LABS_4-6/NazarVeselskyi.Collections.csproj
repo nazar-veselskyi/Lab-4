@@ -7,8 +7,8 @@
     <ProjectGuid>{910276D5-21B5-4F42-8BD4-76CAE429FEE3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NRVI_LABS_4_6</RootNamespace>
-    <AssemblyName>NRVI_LABS_4-6</AssemblyName>
+    <RootNamespace>NazarVeselskyi.Collections</RootNamespace>
+    <AssemblyName>NazarVeselskyi.Collections</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -68,6 +68,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
